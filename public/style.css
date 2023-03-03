@@ -65,12 +65,25 @@ body{
 
 .link{
   border: .5px #b8c1ec solid;
+  display: flex;
+  align-items: center;
  
 
+}
+.link a{
+  margin-left: 30px;
 }
 .link:hover{
  background-color: #eebbc3;
 }
 .link a:hover{
   color: #232946;
+}
+
+.link img{
+  width: 100px;
+  height:100px;
+  object-fit: cover;
+  
+
 }
