@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family:'Saira Condensed';
+  color: #fffffe;
+  
+}
+
+body{
+  background-image: linear-gradient( to right, #232946, #3c477d);
+}
+.banner{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:330px;
+  height: 330px;
+  background-color: #eebbc3;
+  border-radius: 50%;
+  margin-top: 4em;
+}
+.banner-image{
+  width:300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* margin: auto;
+  display: block; */
+}
+.name{
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  font-size: 50px;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  font-size: 25px;
+  margin-bottom: 5rem;
+}
+.social-icons a:hover{
+  color:#eebbc3 ;
+}
+
+
+
+.link__container{
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  font-size: 25px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 8px 8px 15px 3px #181c31;
+
+}
+
+.link{
+  border: .5px #b8c1ec solid;
+ 
+
+}
+.link:hover{
+ background-color: #eebbc3;
+}
+.link a:hover{
+  color: #232946;
+}
