@@ -30,8 +30,6 @@ body{
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  /* margin: auto;
-  display: block; */
 }
 .name{
   text-align: center;
@@ -86,4 +84,7 @@ body{
   object-fit: cover;
   
 
+}
+.social-icons a{
+  margin-right: 10px;
 }
