@@ -85,6 +85,10 @@ body{
   
 
 }
-.social-icons a{
-  margin-right: 10px;
+.fa-brands{
+  margin-right: 20px;
+}
+
+.social-icons a i {
+  margin-right: 20px;
 }
